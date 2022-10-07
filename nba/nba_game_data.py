@@ -47,7 +47,7 @@ for url in urls:
     my_list = h2.split(',')
     my_list = [s for s in my_list if "Basic and Advanced Stats" in s]  
 
-    my_list = [x.replace("Basic and Advanced Stats", '').replace("Basic and Advanced Stats", '') for x in my_list]
+    my_list = [x.replace("Basic and Advanced Stats", '') for x in my_list]
     away_team = my_list[0]
     home_team = my_list[1]
     away_df['Team'] = away_team
