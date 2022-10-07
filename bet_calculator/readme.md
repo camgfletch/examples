@@ -1,4 +1,4 @@
-#Bet Calculator
+# Bet Calculator
 
 This is a project I worked on to help learn PySimpleGUI. I decided to create a calculator for Proportial Staking betting strategy, that helps me determine the value of a bet, and if favourable odds are given determine the size of the bet based on the size of my fund. I have found the tool useful in avoiding unwise bets.
 
