@@ -17,11 +17,6 @@ for url in urls:
     home_basic = tables[8]
     home_adv = tables[15]
     
-    away_basic_df = pd.DataFrame(data=away_basic)
-    away_adv_df = pd.DataFrame(data=away_adv)
-    home_basic_df = pd.DataFrame(data=home_basic)
-    home_adv_df = pd.DataFrame(data=home_adv)
-    
     away_basic_df = away_basic_df.droplevel(level=0, axis=1)
     away_adv_df = away_adv_df.droplevel(level=0, axis=1)
     home_basic_df = home_basic_df.droplevel(level=0, axis=1)
